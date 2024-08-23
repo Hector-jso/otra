@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "otra",
+    "slug": "otra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-copy.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo-copy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202523"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-copy.png",
+        "backgroundColor": "#202523"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
